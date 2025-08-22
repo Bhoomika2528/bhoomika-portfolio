@@ -7,35 +7,20 @@ const Projects = () => {
   const projects = [
     {
       title: "Apartment Management System",
-      description: "A comprehensive web application for managing apartment complexes, featuring tenant management, maintenance requests, rent tracking, and administrative dashboards.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js", "JWT Authentication"],
+      description: "Developed a web-based application that enables users to view and book available apartments in real-time. Features include showing available apartments in real-time, allowing users to register and log in, book rooms, manage their profiles, and add or update apartment details.",
+      technologies: ["Java", "Spring Boot", "HTML", "CSS", "MySQL"],
       demoLink: "#",
       githubLink: "#",
       featured: true
     },
     {
       title: "Apollo Pharmacy Website",
-      description: "A modern e-commerce platform for pharmacy services with medicine catalog, prescription upload, order tracking, and delivery management system.",
-      technologies: ["React", "TypeScript", "Firebase", "Stripe API", "Tailwind CSS"],
+      description: "Developed a responsive web-based pharmacy website where users can browse and purchase medicines online. Features include user login, viewing all available medicines, adding items to the cart, accessing the payment page, and managing user sessions.",
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       demoLink: "#",
       githubLink: "#",
-      featured: true
-    },
-    {
-      title: "AI-Powered Task Analyzer",
-      description: "Machine learning application that analyzes and categorizes tasks using natural language processing to improve productivity workflows.",
-      technologies: ["Python", "TensorFlow", "Flask", "React", "scikit-learn"],
-      demoLink: "#",
-      githubLink: "#",
-      featured: false
-    },
-    {
-      title: "Real-time Chat Application",
-      description: "Full-stack chat application with real-time messaging, file sharing, group chats, and end-to-end encryption features.",
-      technologies: ["Socket.io", "React", "Node.js", "Redis", "PostgreSQL"],
-      demoLink: "#",
-      githubLink: "#",
-      featured: false
+      featured: true,
+      isLive: true
     }
   ];
 
@@ -45,7 +30,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Featured Projects</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my recent work in full-stack development and AI/ML applications.
+            A showcase of my recent work in web development and full-stack applications.
           </p>
         </div>
 
@@ -60,9 +45,14 @@ const Projects = () => {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <h3 className="text-xl font-bold">{project.title}</h3>
-                  {project.featured && (
-                    <Badge className="bg-gradient-primary text-white">Featured</Badge>
-                  )}
+                  <div className="flex gap-2">
+                    {project.isLive && (
+                      <Badge className="bg-green-600 text-white">Live Now</Badge>
+                    )}
+                    {project.featured && (
+                      <Badge className="bg-gradient-primary text-white">Featured</Badge>
+                    )}
+                  </div>
                 </div>
                 
                 <p className="text-muted-foreground leading-relaxed">
