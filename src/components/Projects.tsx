@@ -10,17 +10,14 @@ const Projects = () => {
       description: "Developed a web-based application that enables users to view and book available apartments in real-time. Features include showing available apartments in real-time, allowing users to register and log in, book rooms, manage their profiles, and add or update apartment details.",
       technologies: ["Java", "Spring Boot", "HTML", "CSS", "MySQL"],
       demoLink: "#",
-      githubLink: "#",
-      featured: true
+      githubLink: "#"
     },
     {
       title: "Apollo Pharmacy Website",
       description: "Developed a responsive web-based pharmacy website where users can browse and purchase medicines online. Features include user login, viewing all available medicines, adding items to the cart, accessing the payment page, and managing user sessions.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       demoLink: "#",
-      githubLink: "#",
-      featured: true,
-      isLive: true
+      githubLink: "#"
     }
   ];
 
@@ -38,21 +35,11 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card 
               key={index}
-              className={`p-6 bg-gradient-card border-border/50 hover:shadow-card transition-all duration-300 transform hover:-translate-y-1 ${
-                project.featured ? 'ring-2 ring-primary/20' : ''
-              }`}
+              className="p-6 bg-gradient-card border-border/50 hover:shadow-card transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <h3 className="text-xl font-bold">{project.title}</h3>
-                  <div className="flex gap-2">
-                    {project.isLive && (
-                      <Badge className="bg-green-600 text-white">Live Now</Badge>
-                    )}
-                    {project.featured && (
-                      <Badge className="bg-gradient-primary text-white">Featured</Badge>
-                    )}
-                  </div>
                 </div>
                 
                 <p className="text-muted-foreground leading-relaxed">
