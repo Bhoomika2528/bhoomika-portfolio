@@ -36,8 +36,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "22kq1a6110aiml@gmail.com",
-      href: "mailto:22kq1a6110aiml@gmail.com"
+      value: "bhoomikakaramsetty62@gmail.com",
+      href: "mailto:bhoomikakaramsetty62@gmail.com"
     },
     {
       icon: Phone,
