@@ -16,8 +16,8 @@ const Projects = () => {
       title: "Apollo Pharmacy Website",
       description: "Developed a responsive web-based pharmacy website where users can browse and purchase medicines online. Features include user login, viewing all available medicines, adding items to the cart, accessing the payment page, and managing user sessions.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      demoLink: "#",
-      githubLink: "#"
+      demoLink: "https://bhoomikapharmacy.netlify.app/",
+      githubLink: "https://github.com/Bhoomika2528/pharmacy"
     }
   ];
 

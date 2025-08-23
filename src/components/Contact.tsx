@@ -36,19 +36,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "bhoomika.karamsetty@email.com",
-      href: "mailto:bhoomika.karamsetty@email.com"
+      value: "22kq1a6110aiml@gmail.com",
+      href: "mailto:22kq1a6110aiml@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
+      value: "+91-7013080175",
+      href: "tel:+917013080175"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Hyderabad, India",
+      value: "Podili, India",
       href: "#"
     }
   ];

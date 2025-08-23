@@ -31,8 +31,10 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a dedicated Full Stack Developer with a passion for creating innovative solutions 
-            that bridge the gap between cutting-edge technology and real-world applications.
+            Dedicated and enthusiastic fresher with a specialization in Artificial Intelligence and Machine Learning, 
+            equipped with practical knowledge of Java, SQL, and full-stack web development. Seeking an entry-level position 
+            in a forward-thinking organization where I can apply my skills, work on real-time applications, and grow through 
+            continuous learning and collaboration.
           </p>
         </div>
 
