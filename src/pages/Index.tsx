@@ -4,10 +4,8 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
+  return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       <main>
         <section id="home">
@@ -22,13 +20,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border/50">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-muted-foreground">
-            © 2024 Bhoomika Karamsetty. Built with ❤️ using React & TypeScript.
-          </p>
+          <p className="text-muted-foreground">© 2024 Bhoomika Karamsetty. Built with</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
