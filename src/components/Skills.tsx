@@ -8,7 +8,7 @@ const Skills = () => {
     },
     {
       category: "Concepts",
-      skills: ["OOP using Python and Java", "Data Structures and Algorithms"]
+      skills: ["OOP using Python and Java"]
     },
     {
       category: "FrontEnd",
