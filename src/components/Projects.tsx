@@ -6,13 +6,6 @@ import { Github, ExternalLink, Code2 } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Apartment Management System",
-      description: "Developed a web-based application that enables users to view and book available apartments in real-time. Features include showing available apartments in real-time, allowing users to register and log in, book rooms, manage their profiles, and add or update apartment details.",
-      technologies: ["Java", "Spring Boot", "HTML", "CSS", "MySQL"],
-      demoLink: "#",
-      githubLink: "#"
-    },
-    {
       title: "Apollo Pharmacy Website",
       description: "Developed a responsive web-based pharmacy website where users can browse and purchase medicines online. Features include user login, viewing all available medicines, adding items to the cart, accessing the payment page, and managing user sessions.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
