@@ -150,7 +150,7 @@ const Contact = () => {
                   className="border-primary/50 text-primary hover:bg-primary/10"
                   asChild
                 >
-                  <a href="https://github.com/bhoomika" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Bhoomika2528" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-5 w-5" />
                     GitHub
                   </a>
@@ -162,7 +162,7 @@ const Contact = () => {
                   className="border-primary/50 text-primary hover:bg-primary/10"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/bhoomika-karamsetty" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/bhoomika-karamsetty-b71362281/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn
                   </a>
